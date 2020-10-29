@@ -35,10 +35,8 @@
             zoomOffset: -1
         }).addTo(map);
         
-            $.ajax({mimeType: 'application/json', url: 'https://github.com/Halyava/kotos/blob/main/mog-len-5.json'} ).done(function(data) {
-            var test = L.TileLayer.boundaryCanvas('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                boundary: data,
-            }).addTo(map);
+        $.ajax({mimeType: 'application/json', url: 'https://raw.githubusercontent.com/Halyava/kotos/main/mog-len-5.json'}).done(function(data) {
+            L.geoJson(data).addTo(map);
         });
 
     </script>
