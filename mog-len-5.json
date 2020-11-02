@@ -5,8 +5,8 @@
       "type": "Feature",
       "properties": {},
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        "type": "MultiPolygon",
+        "coordinates": [[
           [
             [
               30.350069403648373,
@@ -157,15 +157,8 @@
               53.912352079118655
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               30.34273624420166,
@@ -200,15 +193,8 @@
               53.91875642365991
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               30.3639954328537,
@@ -271,6 +257,7 @@
               53.90755844649789
             ]
           ]
+        ]
         ]
       }
     }
